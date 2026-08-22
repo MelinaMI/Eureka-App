@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F95F00</color>
+    <color name="background">#F5F6F9</color>
+    <color name="mascota_perdida">#FF4D4D</color>
+    <color name="mascota_encontrada">#FF944D</color>
+    <color name="boton_activo">#F95F00</color>
+    <color name="boton_deshabilitado">#BDBDBD</color>
+</resources>

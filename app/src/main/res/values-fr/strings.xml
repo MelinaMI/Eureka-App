@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Eureka</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_inicio">Accueil</string>
+    <string name="nav_reportes">Signalements</string>
+    <string name="nav_mapa">Carte</string>
+    <string name="nav_cuenta">Compte</string>
+
+    <!-- Estados -->
+    <string name="estado_perdido">Perdu</string>
+    <string name="estado_encontrado">Trouvé</string>
+    <string name="estado_publicado">Publié</string>
+
+    <!-- Animal -->
+    <string name="animal_perro">Chien</string>
+    <string name="animal_gato">Chat</string>
+    <string name="animal_conejo">Lapin</string>
+    <string name="animal_tortuga">Tortue</string>
+
+    <!-- Crear reporte -->
+    <string name="sexo_macho">Mâle</string>
+    <string name="sexo_hembra">Femelle</string>
+    <string name="sexo_desconocido">Je ne sais pas</string>
+    <string name="tamanio_pequeno">Petit</string>
+    <string name="tamanio_mediano">Moyen</string>
+    <string name="tamanio_grande">Grand</string>
+    <string name="reporte_ubicacion_defecto">Localisation</string>
+    <string name="reporte_btn_publicar">Publier le signalement</string>
+
+    <!-- Home -->
+    <string name="home_pregunta">Que s’est-il passé ?</string>
+    <string name="home_btn1">J’ai perdu un animal</string>
+    <string name="home_btn2">J’ai trouvé un animal</string>
+    <string name="home_actividad_reciente">Activité récente</string>
+    <string name="home_sin_actividad">Aucune activité récente</string>
+    <string name="tarjeta_perdido">Vous avez perdu votre animal</string>
+    <string name="tarjeta_encontrado">Vous avez trouvé un animal</string>
+
+    <!-- Login -->
+    <string name="login_bienvenido">Bienvenue</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_btn">Se connecter</string>
+    <string name="login_o">ou</string>
+    <string name="login_registrate">Inscrivez-vous</string>
+
+    <!-- Register -->
+    <string name="register_titulo">Complétez votre profil</string>
+    <string name="register_nombre">Nom</string>
+    <string name="register_email">E-mail</string>
+    <string name="register_password">Mot de passe</string>
+    <string name="register_repetir_password">Répéter le mot de passe</string>
+    <string name="register_captcha_resultado">Résultat</string>
+    <string name="register_btn">Créer un compte</string>
+
+    <!-- Cuenta -->
+    <string name="cuenta_titulo">Mon compte</string>
+    <string name="cuenta_config_alertas">Configuration des alertes</string>
+    <string name="cuenta_notificarme">Me notifier si un animal est perdu ou trouvé</string>
+    <string name="cuenta_distancia">Distance de notification : %d km</string>
+    <string name="cuenta_cerrar_sesion">Se déconnecter</string>
+    <string name="cuenta_idioma">Langue</string>
+
+    <!-- Mapa -->
+    <string name="mapa_titulo">Carte des alertes</string>
+    <string name="mapa_btn_confirmar">Confirmer cet emplacement</string>
+
+    <!-- Reportes -->
+    <string name="reportes_titulo">Mes signalements</string>
+    <string name="reportes_vacio">Vous n’avez pas encore de signalements</string>
+    <string name="reportes_filtro_tipo">Type d’animal :</string>
+    <string name="reportes_filtro_estado">Statut :</string>
+    <string name="reportes_filtro_fecha">Date de publication :</string>
+    <string name="reportes_filtro_todos">Tous</string>
+    <string name="reportes_filtro_perro">Chien</string>
+    <string name="reportes_filtro_gato">Chat</string>
+    <string name="reportes_filtro_conejo">Lapin</string>
+    <string name="reportes_filtro_tortuga">Tortue</string>
+    <string name="reportes_filtro_perdido">Perdu</string>
+    <string name="reportes_filtro_publicado">Publié</string>
+    <string name="reportes_filtro_todas_fechas">Toutes les dates</string>
+    <string name="reportes_limpiar_filtros">Effacer les filtres</string>
+
+    <!-- Reporte perdido -->
+    <string name="reporte_perdido_titulo">Signaler un animal perdu</string>
+    <string name="reporte_perdido_donde">Où l’avez-vous perdu ?</string>
+
+    <!-- Reporte encontrado -->
+    <string name="reporte_encontrado_titulo">Signaler un animal trouvé</string>
+    <string name="reporte_encontrado_donde">Où l’avez-vous trouvé ?</string>
+
+    <!-- Formulario común -->
+    <string name="form_tipo_animal">Type d’animal</string>
+    <string name="form_nombre">Nom</string>
+    <string name="form_sexo">Sexe</string>
+    <string name="form_tamanio">Taille</string>
+    <string name="form_descripcion">Description ou caractéristiques particulières</string>
+    <string name="form_telefono">Téléphone de contact</string>
+    <string name="form_subir_foto">Ajouter une photo</string>
+    <string name="form_enviar">Envoyer le signalement</string>
+
+    <!-- Elección tipo -->
+    <string name="eleccion_perro">Un petit chien</string>
+    <string name="eleccion_gato">Un petit chat</string>
+    <string name="eleccion_otro">Un autre petit animal</string>
+    <string name="eleccion_siguiente">Suivant</string>
+
+    <!-- Editar reporte -->
+    <string name="editar_titulo">Modifier le signalement</string>
+    <string name="editar_guardar">Enregistrer les modifications</string>
+    <string name="editar_error_no_encontrado">Signalement introuvable</string>
+    <string name="editar_error_cargar">Erreur lors du chargement</string>
+    <string name="editar_error_guardar">Erreur lors de l’enregistrement</string>
+    <string name="editar_exito_guardado">Modifications enregistrées</string>
+
+    <!-- Detalle -->
+    <string name="detalle_titulo">Détail du signalement</string>
+    <string name="detalle_vacio">Aucune donnée trouvée</string>
+    <string name="detalle_marcar_encontrado">Marquer comme trouvé</string>
+    <string name="detalle_error_inexistente">Le signalement n’existe plus.</string>
+    <string name="detalle_error_servidor">Erreur de connexion au serveur.</string>
+    <string name="detalle_error_actualizar">Impossible de mettre à jour le statut.</string>
+    <string name="detalle_error_eliminar">Impossible de supprimer le signalement.</string>
+    <string name="detalle_dialogo_eliminar_titulo">Supprimer le signalement</string>
+    <string name="detalle_dialogo_eliminar_msg">Êtes-vous sûr de vouloir supprimer le signalement ?</string>
+    <string name="detalle_dialogo_eliminar_btn">Supprimer</string>
+    <string name="detalle_dialogo_cancelar_btn">Annuler</string>
+    <string name="detalle_accion_exitosa">Excellent ! Statut mis à jour</string>
+    <string name="detalle_animal">Animal: %s</string>
+    <string name="detalle_estado">Statut: %s</string>
+    <string name="detalle_fecha">Signalé le: %s</string>
+    <string name="detalle_telefono">Téléphone: %s</string>
+    <string name="detalle_sexo">Sexe: %s</string>
+    <string name="detalle_tamanio">Taille: %s</string>
+    <string name="detalle_descripcion">Description: %s</string>
+    <string name="detalle_direccion">Vu pour la dernière fois: </string>
+    <string name="detalle_valor_desconocido">Inconnu</string>
+
+    <!-- Seleccionar ubicación -->
+    <string name="ubicacion_confirmar">Confirmer cet endroit</string>
+
+    <!-- GPS -->
+    <string name="gps_titulo">GPS désactivé</string>
+    <string name="gps_mensaje">Pour voir los signalements d’animaux proches de vous, vous devez activer le GPS.</string>
+    <string name="gps_activar">Activer</string>
+    <string name="gps_ahora_no">Pas maintenant</string>
+
+    <!-- Notificaciones -->
+    <string name="notif_titulo">🐾 Animal perdu proche de vous</string>
+    <string name="notif_metros">%s signalé à %d mètres de votre position</string>
+    <string name="notif_km">%s signalé à %.1f km de votre position</string>
+    <string name="notif_canal_nombre">Alertes d’animaux</string>
+    <string name="notif_canal_descripcion">Notifications d’animaux perdus proche de vous</string>
+
+    <!-- Captcha -->
+    <string name="register_error_passwords">Les mots de passe ne correspondent pas</string>
+    <string name="register_error_captcha">Le captcha est incorrect</string>
+    <string name="register_captcha_pregunta">Combien font %1$d + %2$d ?</string>
+
+    <!-- Diálogos de crear reporte -->
+    <string name="dialogo_carga_titulo">Publication du rapport</string>
+    <string name="dialogo_carga_mensaje">Téléchargement des données et des images, veuillez patienter...</string>
+    <string name="dialogo_exito_titulo">Rapport Créé !</string>
+    <string name="dialogo_exito_mensaje">La publication a été téléchargée avec succès et est maintenant disponible dans la communauté Eureka.</string>
+    <string name="dialogo_exito_boton">Accepter</string>
+    <string name="error_permiso_ubicacion">Permission de localisation refusée</string>
+    <string name="error_subir_imagen">Erreur lors du téléchargement de l\'image : %1$s</string>
+    <string name="coordenadas_formato">Coordonnées : %1$.6f, %2$.6f</string>
+
+    <!-- Validaciones -->
+    <string name="error_animal_requerido">Le type d\'animal est obligatoire</string>
+    <string name="error_sexo_requerido">Le sexe est obligatoire</string>
+    <string name="error_tamanio_requerido">La taille est obligatoire</string>
+    <string name="error_foto_requerida">Une photo de l\'animal est obligatoire</string>
+    <string name="error_generico">Une erreur inattendue s\'est produite</string>
+    <string name="error_sesion_inactiva">Aucune session active</string>
+    <string name="error_campo_requerido">Ce champ est obligatoire</string>
+    <string name="error_descripcion_larga">La description ne peut pas dépasser 150 caractères</string>
+    <string name="error_telefono_largo">Le numéro de téléphone ne peut pas avoir plus de 10 chiffres</string>
+    <string name="error_ubicacion_requerida">Veuillez sélectionner un emplacement sur la carte</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_inicio" />
+    <item
+        android:id="@+id/fragment_reportes"
+        android:icon="@drawable/ic_report"
+        android:title="@string/nav_reportes" />
+    <item
+        android:id="@+id/fragment_map"
+        android:icon="@drawable/ic_map"
+        android:title="@string/nav_mapa" />
+    <item
+        android:id="@+id/fragment_cuenta"
+        android:icon="@drawable/ic_account"
+        android:title="@string/nav_cuenta" />
+</menu>

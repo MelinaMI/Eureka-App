@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Eureka</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_reportes">Reportes</string>
+    <string name="nav_mapa">Mapa</string>
+    <string name="nav_cuenta">Cuenta</string>
+    
+    <!-- Estados -->
+    <string name="estado_perdido">Perdido</string>
+    <string name="estado_encontrado">Encontrado</string>
+    <string name="estado_publicado">Publicado</string>
+    
+    <!-- Animal -->
+    <string name="animal_perro">Perro</string>
+    <string name="animal_gato">Gato</string>
+    <string name="animal_conejo">Conejo</string>
+    <string name="animal_tortuga">Tortuga</string>
+    
+    <!-- Crear reporte -->
+    <string name="sexo_macho">Macho</string>
+    <string name="sexo_hembra">Hembra</string>
+    <string name="sexo_desconocido">No sé</string>
+    <string name="tamanio_pequeno">Pequeño</string>
+    <string name="tamanio_mediano">Mediano</string>
+    <string name="tamanio_grande">Grande</string>
+    <string name="reporte_ubicacion_defecto">Ubicación</string>
+    <string name="reporte_btn_publicar">Publicar reporte</string>
+
+    <!-- Home -->
+    <string name="home_pregunta">¿Qué pasó?</string>
+    <string name="home_btn1">Perdí una mascota</string>
+    <string name="home_btn2">Encontré una mascota</string>
+    <string name="home_actividad_reciente">Actividad reciente</string>
+    <string name="home_sin_actividad">No hay actividad reciente</string>
+    <string name="tarjeta_perdido">Perdiste a tu mascota</string>
+    <string name="tarjeta_encontrado">Encontraste una mascota</string>
+
+    
+
+    <!-- Login -->
+    <string name="login_bienvenido">Bienvenido</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_btn">Iniciar Sesión</string>
+    <string name="login_o">o</string>
+    <string name="login_registrate">Registrate</string>
+
+    <!-- Register -->
+    <string name="register_titulo">Completá tu perfil</string>
+    <string name="register_nombre">Nombre</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_repetir_password">Repetir contraseña</string>
+    <string name="register_captcha_resultado">Resultado</string>
+    <string name="register_btn">Crear cuenta</string>
+
+    <!-- Cuenta -->
+    <string name="cuenta_titulo">Mi cuenta</string>
+    <string name="cuenta_config_alertas">Configuración de alertas</string>
+    <string name="cuenta_notificarme">Notificarme si se pierde o encuentra una mascota</string>
+    <string name="cuenta_distancia">Distancia de notificación: %d km</string>
+    <string name="cuenta_cerrar_sesion">Cerrar Sesión</string>
+    <string name="cuenta_idioma">Idioma</string>
+
+    <!-- Mapa -->
+    <string name="mapa_titulo">Mapa de alertas</string>
+    <string name="mapa_btn_confirmar">Confirmar este lugar</string>
+
+    <!-- Reportes -->
+    <string name="reportes_titulo">Mis reportes</string>
+    <string name="reportes_vacio">No tenés reportes todavía</string>
+    <string name="reportes_filtro_tipo">Tipo de mascota:</string>
+    <string name="reportes_filtro_estado">Estado:</string>
+    <string name="reportes_filtro_fecha">Fecha de publicación:</string>
+    <string name="reportes_filtro_todos">Todos</string>
+    <string name="reportes_filtro_perro">Perro</string>
+    <string name="reportes_filtro_gato">Gato</string>
+    <string name="reportes_filtro_conejo">Conejo</string>
+    <string name="reportes_filtro_tortuga">Tortuga</string>
+    <string name="reportes_filtro_perdido">Perdido</string>
+    <string name="reportes_filtro_publicado">Publicado</string>
+    <string name="reportes_filtro_todas_fechas">Todas las fechas</string>
+    <string name="reportes_limpiar_filtros">Limpiar Filtros</string>
+
+    <!-- Reporte perdido -->
+    <string name="reporte_perdido_titulo">Reportar mascota perdida</string>
+    <string name="reporte_perdido_donde">¿Dónde lo perdiste?</string>
+
+    <!-- Reporte encontrado -->
+    <string name="reporte_encontrado_titulo">Reportar mascota encontrada</string>
+    <string name="reporte_encontrado_donde">¿Dónde lo encontraste?</string>
+
+    <!-- Formulario común -->
+    <string name="form_tipo_animal">Tipo de animal</string>
+    <string name="form_nombre">Nombre</string>
+    <string name="form_sexo">Sexo</string>
+    <string name="form_tamanio">Tamaño</string>
+    <string name="form_descripcion">Descripción o características particulares</string>
+    <string name="form_telefono">Teléfono de contacto</string>
+    <string name="form_subir_foto">Subir foto</string>
+    <string name="form_enviar">Enviar reporte</string>
+
+    <!-- Elección tipo -->
+    <string name="eleccion_perro">Un perrito</string>
+    <string name="eleccion_gato">Un gatito</string>
+    <string name="eleccion_otro">Otro animalito</string>
+    <string name="eleccion_siguiente">Siguiente</string>
+
+    <!-- Editar reporte -->
+    <string name="editar_titulo">Editar reporte</string>
+    <string name="editar_guardar">Guardar cambios</string>
+    <string name="editar_error_no_encontrado">Reporte no encontrado</string>
+    <string name="editar_error_cargar">Error al cargar</string>
+    <string name="editar_error_guardar">Error al guardar</string>
+    <string name="editar_exito_guardado">Cambios guardados</string>
+
+    <!-- Detalle -->
+    <string name="detalle_titulo">Detalle del reporte</string>
+    <string name="detalle_vacio">No se encontraron datos</string>
+    <string name="detalle_marcar_encontrado">Marcar como encontrado</string>
+    <string name="detalle_error_inexistente">El reporte ya no existe.</string>
+    <string name="detalle_error_servidor">Error al conectar con el servidor.</string>
+    <string name="detalle_error_actualizar">No se pudo actualizar el estado.</string>
+    <string name="detalle_error_eliminar">No se pudo eliminar el reporte.</string>
+    <string name="detalle_dialogo_eliminar_titulo">Eliminar reporte</string>
+    <string name="detalle_dialogo_eliminar_msg">¿Estás seguro que querés eliminar este reporte?</string>
+    <string name="detalle_dialogo_eliminar_btn">Eliminar</string>
+    <string name="detalle_dialogo_cancelar_btn">Cancelar</string>
+    <string name="detalle_accion_exitosa">¡Excelente! Estado actualizado</string>
+    <string name="detalle_animal">Animal: %s</string>
+    <string name="detalle_estado">Estado: %s</string>
+    <string name="detalle_fecha">Reportado: %s</string>
+    <string name="detalle_telefono">Teléfono: %s</string>
+    <string name="detalle_sexo">Sexo: %s</string>
+    <string name="detalle_tamanio">Tamaño: %s</string>
+    <string name="detalle_descripcion">Descripción: %s</string>
+    <string name="detalle_direccion">Última vez visto:</string>
+    <string name="detalle_valor_desconocido">Desconocido</string>
+    
+    
+    <!-- Seleccionar ubicación -->
+    <string name="ubicacion_confirmar">Confirmar este lugar</string>
+
+    <!-- GPS -->
+    <string name="gps_titulo">GPS desactivado</string>
+    <string name="gps_mensaje">Para ver reportes de mascotas cerca tuyo necesitás activar el GPS.</string>
+    <string name="gps_activar">Activar</string>
+    <string name="gps_ahora_no">Ahora no</string>
+
+    <!-- Notificaciones -->
+    <string name="notif_titulo">🐾 Mascota perdida cerca tuyo</string>
+    <string name="notif_metros">%s reportado a %d metros de tu ubicación</string>
+    <string name="notif_km">%s reportado a %.1f km de tu ubicación</string>
+    <string name="notif_canal_nombre">Alertas de mascotas</string>
+    <string name="notif_canal_descripcion">Notificaciones de mascotas perdidas cerca tuyo</string>
+    
+    <!-- Captcha -->
+    <string name="register_error_passwords">Las contraseñas no coinciden</string>
+    <string name="register_error_captcha">El captcha es incorrecto</string>
+    <string name="register_captcha_pregunta">¿Cuánto es %1$d + %2$d?</string>
+
+    <!-- Diálogos de crear reporte -->
+    <string name="dialogo_carga_titulo">Publicando reporte</string>
+    <string name="dialogo_carga_mensaje">Subiendo los datos e imágenes, por favor esperá...</string>
+    <string name="dialogo_exito_titulo">¡Reporte Creado!</string>
+    <string name="dialogo_exito_mensaje">La publicación se subió correctamente y ya se encuentra disponible en la comunidad de Eureka.</string>
+    <string name="dialogo_exito_boton">Aceptar</string>
+    <string name="error_permiso_ubicacion">Permiso de ubicación denegado</string>
+    <string name="error_subir_imagen">Error al subir imagen: %1$s</string>
+    <string name="coordenadas_formato">Coordenadas: %1$.6f, %2$.6f</string>
+
+    <!--Validaciones-->
+    <string name="error_campo_requerido">Este campo es obligatorio</string>
+    <string name="error_descripcion_larga">La descripción no puede superar los 150 caracteres</string>
+    <string name="error_telefono_largo">El teléfono no puede tener más de 10 dígitos</string>
+    <string name="error_ubicacion_requerida">Seleccioná una ubicación en el mapa</string>
+    <string name="error_animal_requerido">El tipo de animal es obligatorio</string>
+    <string name="error_sexo_requerido">El sexo es obligatorio</string>
+    <string name="error_tamanio_requerido">El tamaño es obligatorio</string>
+    <string name="error_foto_requerida">La foto de la mascota es obligatoria</string>
+    <string name="error_generico">Ocurrió un error inesperado</string>
+    <string name="error_sesion_inactiva">No hay sesión activa</string>
+
+</resources>
